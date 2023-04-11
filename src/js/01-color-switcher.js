@@ -14,6 +14,7 @@ function getRandomHexColor() {
 //слухач на кнопку
 //функція, яка змінює колір боді
 //підключити функцію зміни кольору до кнопки старт з інтервалом 1 сек.
+let timerId = null;
 
   startButton.addEventListener("click", () => {
     timerId = setInterval(() => {
